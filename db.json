@@ -1,0 +1,67 @@
+{
+  "Students": [
+    {
+      "studentName": "Abdul Rauf",
+      "rollNumber": "0303-BSCS-18",
+      "email": "arauf@gcu.com",
+      "password": "1234",
+      "enrolledCourses": ["1", "3"]
+    },
+    {
+      "studentName": "Moeez Hydr",
+      "rollNumber": "0233-BSCS-18",
+      "password": "1234",
+      "email": "mhydr@gcu.com",
+      "enrolledCourses": ["1", "2", "3"]
+    },
+    {
+      "studentName": "Awais Hanif",
+      "rollNumber": "0243-BSCS-18",
+      "password": "1234",
+      "email": "ahanif@gcu.com",
+      "enrolledCourses": ["1", "2"]
+    }
+  ],
+
+  "Courses": [
+    {
+      "id": "1",
+      "courseName": "Web Engineering",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+      "id": "2",
+      "courseName": "Information Security",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+      "id": "3",
+      "courseName": "Software Quality Assurance",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    }
+  ],
+
+  "Teachers": [
+    {
+      "id": "1",
+      "Name": "Umair",
+      "email": "mumair@gcu.com",
+      "password": "1234",
+      "courseIds": ["1", "2", "3"]
+    },
+    {
+      "id": "2",
+      "Name": "Atif",
+      "email": "matif@gcu.com",
+      "password": "1234",
+      "courseIds": ["1", "2"]
+    },
+    {
+      "id": "3",
+      "Name": "Babar",
+      "email": "mbabar@gcu.com",
+      "password": "1234",
+      "courseIds": ["2", "3"]
+    }
+  ]
+}
